@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "hideOsu!Rank",
+    "version": "1.0",
+  
+    "description": "hides osu rank section from user profiles",
+  
+    "icons": {
+      "48": "icons/a48.png"
+    },
+
+    
+    "content_scripts": [
+      {
+        "matches": ["https://osu.ppy.sh/*"],
+        "js": ["script.js"]
+      }
+    ]
+
+  }
+  
